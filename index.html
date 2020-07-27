@@ -1,0 +1,26 @@
+<html>
+  <body>
+    <script type="text/javascript">
+     function append_text(){
+        var fs = require('fs');
+      var data = {
+    "City":"London",
+    "Weather":"Drizzle",
+    "Description":"light intensity drizzle",
+    "Current Temperature":280.32,
+    "Maximum Temperature":281.15,
+    "Minimum Temperature":279.15,
+    "Pressure":1012,
+    "Humidity":81,
+    "Validity":10000
+      };
+      fs.appendFile("data_class.json", function(err){
+            if (err) return console.log(err);
+            console.log(data);
+        });
+    };
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js">
+      </script>
+    </body>
+</html>

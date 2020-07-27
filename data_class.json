@@ -1,0 +1,11 @@
+{
+    "City":"London",
+    "Weather":"Drizzle",
+    "Description":"light intensity drizzle",
+    "Current Temperature":280.32,
+    "Maximum Temperature":281.15,
+    "Minimum Temperature":279.15,
+    "Pressure":1012,
+    "Humidity":81,
+    "Validity":10000
+}
